@@ -1,0 +1,49 @@
+syntax: regexp
+
+### miscellaneous
+# backup files
+~$
+\.bak$
+\.BAK$
+# patch originals and rejects
+\.orig$
+\.rej$
+# X server
+\..serverauth.*
+# image spam
+\#
+(^|/)Thumbs\.db$
+# vi, emacs tags
+(^|/)(tags|TAGS)$
+#(^|/)\.[^/]
+# core dumps
+(^|/|\.)core$
+# partial broken files (KIO copy operations)
+\.part$
+# waf files, see http://code.google.com/p/waf/
+(^|/)\.waf-[[:digit:].]+-[[:digit:]]+($|/)
+(^|/)\.lock-wscript$
+# mac os finder
+(^|/)\.DS_Store$
+\.rar$
+\.zip$
+
+### VC temp files
+# user options
+\.user$
+\.suo$
+# intellisense db
+\.ncb$
+\.pdb$
+\.idb$
+\.aps$
+\.lnk$
+\.dmp$
+\.cmd$
+obj/
+bin/
+debug/
+release/
+Debug/
+Release/
+stuff.txt
