@@ -1,0 +1,1 @@
+Provides a command line interface to restricted tokens, job objects and desktop objects on Windows NT version 5.0+ (Windows 2000) OSes.
